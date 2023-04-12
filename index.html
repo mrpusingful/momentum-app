@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Comic+Neue&family=Delicious+Handrawn&family=Fredoka:wght@500;700&family=Lustria&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/time-qoutes.css" />
+    <link rel="stylesheet" href="styles/todo.css" />
+    <title>Rem momentum app</title>
+  </head>
+  <body>
+
+
+    <main>
+
+      <div class="time-top-container">
+        <div class="time-container">
+          <div class="time">HH:MM:SS</div>
+          <div class="timezone">hh:mm:ss UK Time</div>
+          <input id="name-field" type="text" placeholder="Hi [Name]">
+        </div>
+      </div>
+
+      <div class="quotes-todo-bottom-container">
+        <div class="bottom-left-container">
+          <div class="quotes-container">
+            <div class="quote-text">
+              "Creativity is intelligence <br />
+              having fun."
+            </div>
+            <div class="quote-author">Albert Einstein</div>
+          </div>
+        </div>
+
+
+
+        <div class="bottom-right-container"  >
+          <div class="todo-container">
+            <div class="todo-top">
+              <p id="today" class="todo-time">TODAY</p>
+              <img id="minimize" src="icons/minimize.png" alt="" />
+              <img id="close-box" src="icons/box x.png" alt="" />
+            </div>
+
+            <div class="todo-middle">
+              
+            </div>
+
+            <div class="todo-bottom">
+              <input class="todo-input" type="text" />
+              <img id="enter" src="icons/enter.png" alt="" />
+              <img id="calendar" src="icons/calendar.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="task-minimize-container">
+        <img id="task-icon" src="icons/tasks-icon.png" alt="">
+      </div>
+    </main>
+
+    <script src="js/index.js"></script>
+    <script src="js/todo.js"></script>
+  </body>
+</html>

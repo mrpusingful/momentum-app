@@ -1,0 +1,137 @@
+.todo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+.todo-top {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Delicious Handrawn', cursive;
+  margin-bottom: 0;
+  padding-bottom: 5px;
+  height: 50px;
+}
+
+.todo-middle {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  position: relative;
+}
+
+.lists {
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#check-box {
+  width: 10px;
+  margin-right: 20px;
+  margin-left: 35px;
+}
+
+.todo-list {
+
+  font-size: 20px;
+  font-family: 'Comic Neue', cursive;
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+#circle-x {
+  position: absolute;
+  right: 15%;
+
+}
+
+#close-box {
+  position: absolute;
+  right: 10%;
+  top: -10%;
+}
+
+#minimize {
+  position: absolute;
+  right: 20%;
+  top: 0%;
+}
+
+#today {
+  padding-top: 0;
+  margin-top: 10px;
+  margin-left: 25px;
+  padding-bottom: 0;
+  padding-left: 30px;
+  font-size: 40px;
+  color: white;
+  font-family: 'Delicious Handrawn', cursive;
+}
+
+
+#enter,
+#calendar,
+#circle-x,
+#close-box,
+#minimize {
+  cursor: pointer;
+}
+
+.todo-bottom {
+  display: flex;
+  background-color: yellow;
+  position: absolute;
+  bottom: -78%;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+input {
+  width: 80%;
+  border: none;
+}
+
+.task-minimize-container {
+  display: flex;
+  flex-direction: column;
+}
+
+#task-icon {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  object-position: center;
+  right: 0;
+  bottom: -15;
+  cursor: pointer;
+  
+}
+
+#check-box:checked + .todo-list{
+  text-decoration:line-through red 5px;
+}
+
+
+
+
+@media screen and (max-width: 550px) {
+}
+
+@media screen and (min-width: 551px) and (max-width: 850px) {
+}
+
+@media screen and (min-width: 851px) and (max-width: 2002px) {
+
+}
+
+

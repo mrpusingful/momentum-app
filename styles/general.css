@@ -1,0 +1,46 @@
+body {
+  background: url(/images/1.png) no-repeat center center fixed;
+  background-size: cover;
+  }
+  
+  main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+  }
+  
+  img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  }
+  
+  .quotes-todo-bottom-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  height: 350px;
+  }
+  
+  .time-top-container {
+  height: 250px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  z-index: 100;
+  }
+  
+  
+.bottom-right-container {
+  background-image: url(/icons/Transparent\ drop.png);  
+  background-position: center;
+  background-size: cover;
+  height: 100px;
+  width: 300px;
+  position: absolute;
+  right: 0;
+  bottom: -25%;
+  z-index: 200;
+}
